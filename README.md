@@ -6,4 +6,4 @@ Web Development Using Django for 2nd year AIML-A
   - Python, Pip Version check and pip upgrade
   - Django Installation and Version check
   - Project creation, running and stopping of it
-  - Python Concepts Overview (function, function types and argument types)
+  - Python Concepts Overview (functions, functions types and argument types)
