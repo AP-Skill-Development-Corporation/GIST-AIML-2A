@@ -1,0 +1,42 @@
+Day-02[30-01-2024]:
+===================
+	Good Morning All...
+
+	Concepts:
+	=========
+		- Functions and its types
+		- User Defined Function types
+		- Function Argument Types
+		- Packages and Modules, importing of module and from packages
+		- Admin App Files Overview,User App Creation
+
+	Admin App Folder Overview:
+    ==========================
+        - init => It will be considered as python file
+        - asgi => Asynchronous Gate Way Interface [Project Deployment] 
+        - wsgi => Web server Gateway Interface [Project Deployment]
+        - urls => To check the url name is existing in the project or not
+        - settings => All configurations [app,css,html,audio,video,email,images]
+
+    UserApp Creation:
+    =================
+        - cmd
+        - py manage.py startapp "appname"
+            - py manage.py startapp AIMLApp
+
+    Task:
+    =====
+    	Python:
+    	-------
+    		- Class,object,method,constructor and its types
+    		- Inheritance and its types
+
+    	Django:
+    	-------
+    		- Yesterday Concepts related to Django [introduction,history,advantages and disadvantages,features and applications]
+
+    	HTML:
+    	-----
+    		- HTML Tags [inline and blocked elements]
+    		- Form Controls
+    	
