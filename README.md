@@ -18,7 +18,7 @@ Web Development Using Django for 2nd year AIML-A
   - Url creation and dynamic url mapping
   - Dynamic url mapping with single and n parameters with sample examples on each
   - Interface between urls and views
-  - Httpresponse with string,html tags,inline css,internal css and javascript with sample example on each
+  - HttpResponse with string,html tags,inline css,internal css and javascript with sample examples on each
   - Template creation and Interface between controllers and template
   - Data rendering from controllers to templates
   
