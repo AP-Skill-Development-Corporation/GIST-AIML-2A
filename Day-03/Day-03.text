@@ -1,0 +1,37 @@
+Day-03[31-01-2024]:
+===================
+	Good Morning All..
+
+	Path:
+	=====
+		path('urlname/',module.functioname,name="nameofurl")
+
+	render:
+	=======
+		render(self,'.html file',dictionary)
+
+	Concepts:
+	=========
+		- Url Creation and Dynamic Url Mapping
+		- Interface between controllers [urls and views]
+		- HttpResponse with string
+		- HttpResponse with html tag
+		- HttpResponse with css
+		- HttpResponse with javascript
+		- Template Creation
+		- Interface between controller and template
+
+	Task:
+	=====
+		Python:
+		=======
+			- OOPS Concept by using bank application
+
+		Django:
+		=======
+			- Difference between MVC and MVT
+
+		HTML:
+		=====
+			- Form Controls
+			- Bootstrap-4 [container,jumbotron,cards,grid system]
