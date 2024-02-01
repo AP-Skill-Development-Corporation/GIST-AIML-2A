@@ -1,0 +1,23 @@
+Day-04[01-02-2024]:
+===================
+	Good Morning All..
+
+	Concepts:
+	=========
+		- Static File Handling
+		- Data rendering from HTML to views and then views to another HTML
+	
+	Task:
+	=====
+		Python:
+		-------
+			- OOPS concepts by using bank application
+
+		Django:
+		-------
+			- Differences between MVC and MVT
+
+		HTML:
+		-----
+			- Bootstrap-4[alerts,buttons,forms,inputs,table,grid system,colors]
+
