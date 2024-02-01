@@ -21,5 +21,9 @@ Web Development Using Django for 2nd year AIML-A
   - HttpResponse with string,html tags,inline css,internal css and javascript with sample examples on each
   - Template creation and Interface between controllers and template
   - Data rendering from controllers to templates
-  
+
+## Day-04[01-02-2024]:
+  - Static file handling with css,images and js with sample example on each
+  - Data rendering from HTML to views and then views to another HTML
+  - Including another url configuration and accessing particular app and .html file
 
