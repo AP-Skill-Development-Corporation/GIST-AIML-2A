@@ -1,0 +1,31 @@
+{% extends 'html/base.html' %}
+
+{% block content %}
+<div class="container">
+	<div class="row mt-4">
+		<div class="col-md-4 card shadow-lg mr-2 border border-success h-100">
+			<div class="card-body">
+				<h3>Add Student</h3>
+				<form>
+					{% for i in t %}
+						{{i}}
+					{% endfor %}
+					<div class="row">
+						<div class="col">
+							<input type="reset" value="Clear" class="btn btn-outline-danger form-control">
+						</div>
+						<div class="col">
+							<input type="submit" value="Create" class="btn btn-outline-success form-control">
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+		<div class="col-md card shadow-lg ml-2 border border-warning h-100">
+			<div class="card-body">
+				<h3>Students Data</h3>
+			</div>
+		</div>
+	</div>
+</div>
+{% endblock %}
