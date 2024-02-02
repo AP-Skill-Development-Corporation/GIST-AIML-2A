@@ -27,3 +27,8 @@ Web Development Using Django for 2nd year AIML-A
   - Data rendering from HTML to views and then views to another HTML
   - Including another url configuration and accessing particular app and .html file
 
+## Day-05[02-02-2024]:
+  - Model Creation,Migrations and ORM with sample example on each
+  - Model queries by using Django shell (CRUD Operations)
+  - Forms,Widgets and template blocks with sample example on it
+
