@@ -1,0 +1,29 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Employee Details</title>
+	<style type="text/css">
+		span
+		{
+			color:green;
+		}
+		i
+		{
+			color: blue;
+		}
+	</style>
+	<link rel="stylesheet" type="text/css" href="{% static 'css/demo.css' %}">
+	<script type="text/javascript" src="{% static 'js/sample.js' %}"></script>
+</head>
+<body>
+	<h1>Employee Data</h1>
+	<h3>Employee Id: <span>{{a}}</span> </h3>
+	<h3>Employee Name: <i>{{b}}</i></h3>
+	<h3>Employee Salary: <span>{{c}}</span></h3>
+
+	<img src="{% static 'images/logo.jpeg' %}">
+</body>
+</html> 

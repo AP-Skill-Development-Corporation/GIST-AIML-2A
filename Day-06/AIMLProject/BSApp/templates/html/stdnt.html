@@ -1,0 +1,65 @@
+{% extends 'html/base.html' %}
+
+{% block content %}
+<div class="container">
+	{% if messages %}
+		{% for n in messages %}
+			<div class="alert alert-{{n.tags}} alert-dismissible mt-2">
+  				<button type="button" class="close" data-dismiss="alert">&times;</button>
+  				{{n}}
+			</div>
+		{% endfor %}
+	{% endif %}
+	<div class="row mt-4">
+		<div class="col-md-4 card shadow-lg mr-2 border border-success h-100">
+			<div class="card-body">
+				<h3>Add Student</h3>
+				<form method="post">
+					{% csrf_token %}
+					{% for i in t %}
+						{{i}}
+					{% endfor %}
+					<div class="row">
+						<div class="col">
+							<input type="reset" value="Clear" class="btn btn-outline-danger form-control">
+						</div>
+						<div class="col">
+							<input type="submit" value="Create" class="btn btn-outline-success form-control">
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+		<div class="col-md card shadow-lg ml-2 border border-warning h-100">
+			<div class="card-body">
+				<h3>Students Data</h3>
+				<table class="table table-borderless table-hover table-stiped">
+					<tr class="bg-dark text-light">
+						<th>Sno</th>
+						<th>Roll Number</th>
+						<th>Name</th>
+						<th>Actions</th>
+					</tr>
+					{% for i in p %}	
+					<tr>	
+						<td>{{forloop.counter}}</td>
+						<td>{{i.rn}}</td>
+						<td>{{i.sn}}</td>
+						<td>
+							<div class="row">
+								<div class="col">
+									<a href="{% url 'stupd' i.id %}" class="btn btn-outline-info form-control">Update</a>
+								</div>
+								<div class="col">
+									<a href="{% url 'stdd' i.id %}" class="btn btn-outline-danger form-control">Delete</a>
+								</div>
+							</div>
+						</td>
+					</tr>
+					{% endfor %}
+				</table>
+			</div>
+		</div>
+	</div>
+</div>
+{% endblock %}
