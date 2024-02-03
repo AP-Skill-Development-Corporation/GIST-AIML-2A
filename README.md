@@ -32,3 +32,7 @@ Web Development Using Django for 2nd year AIML-A
   - Model queries by using Django shell (CRUD Operations)
   - Forms,Widgets and template blocks with sample example on it
 
+## Day-06[03-02-2024]:
+  - CRUD Operations and Message concept with sample example on each
+  - Form Validations with sample example on each
+  - SuperUser Creation and UserRegistration with sample example on each
